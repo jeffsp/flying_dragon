@@ -1,3 +1,3 @@
-# flying Dragon
+# Flying Dragon
 
-Foveated video conferencing application
+QT Foveated video conferencing application
