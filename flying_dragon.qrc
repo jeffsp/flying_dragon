@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/flying_dragon" >
+        <file>images/start_capture.png</file>
+        <file>images/stop_capture.png</file>
+        <file>images/camera_view.png</file>
+        <file>images/camera_settings.png</file>
+        <file>images/camera_click.png</file>
+        <file>images/window_fullscreen.png</file>
+        <file>images/window_nofullscreen.png</file>
+        <file>images/stretch.png</file>
+        <file>images/connection_info.png</file>
+        <file>images/delete_connection.png</file>
+        <file>images/disconnect.png</file>
+        <file>images/dragon.png</file>
+        <file>images/new_connection.png</file>
+        <file>images/quit.png</file>
+        <file>images/server_options.png</file>
+        <file>images/view_connection.png</file>
+    </qresource>
+</RCC>

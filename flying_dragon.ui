@@ -1,0 +1,74 @@
+<ui version="4.0" >
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>659</width>
+    <height>369</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Flying Dragon</string>
+  </property>
+  <property name="windowIcon" >
+   <iconset resource="flying_dragon.qrc" >
+    <normaloff>:/flying_dragon/images/dragon.png</normaloff>:/flying_dragon/images/dragon.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget" >
+   <property name="geometry" >
+    <rect>
+     <x>0</x>
+     <y>28</y>
+     <width>659</width>
+     <height>316</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout" />
+  </widget>
+  <widget class="QMenuBar" name="menubar" >
+   <property name="geometry" >
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>659</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile" >
+    <property name="title" >
+     <string>File</string>
+    </property>
+    <addaction name="actionQuit" />
+   </widget>
+   <addaction name="menuFile" />
+  </widget>
+  <widget class="QStatusBar" name="statusbar" >
+   <property name="geometry" >
+    <rect>
+     <x>0</x>
+     <y>344</y>
+     <width>659</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <action name="actionQuit" >
+   <property name="icon" >
+    <iconset resource="flying_dragon.qrc" >
+     <normaloff>:/flying_dragon/images/quit.png</normaloff>:/flying_dragon/images/quit.png</iconset>
+   </property>
+   <property name="text" >
+    <string>&amp;Quit</string>
+   </property>
+   <property name="shortcut" >
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="flying_dragon.qrc" />
+ </resources>
+ <connections/>
+</ui>
